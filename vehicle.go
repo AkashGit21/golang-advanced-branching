@@ -34,7 +34,7 @@ type bike struct {
 	model, make string
 }
 type feedbackResult struct {
-	feedbackTotal, feedbackPositive, feedbackNegative, feedbackNegative int
+	feedbackTotal, feedbackPositive, feedbackNegative, feedbackNeutral int
 }
 
 var vehicleResult map[string]feedbackResult
